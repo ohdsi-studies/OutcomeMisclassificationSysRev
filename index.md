@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+Systematic review of outcome misclassification correction in pharmacoepidemiology
+=================
 
-You can use the [editor on GitHub](https://github.com/ohdsi-studies/OutcomeMisclassificationSysRev/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<img src="https://img.shields.io/badge/Study%20Status-Repo%20Created-lightgray.svg" alt="Study Status: Repo Created">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ohdsi-studies/OutcomeMisclassificationSysRev/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Analytics use case(s): `Population-Level Estimation`
+- Study type: `Methods Research`
+- Tags: **-**
+- Study lead: **James Weaver**
+- Study lead forums tag: **[jweave17](https://forums.ohdsi.org/u/jweave17)**
+- Study start date: **1 November 2021**
+- Study end date: **-**
+- Protocol: **[Protocol](https://ohdsi-studies.github.io/OutcomeMisclassificationSysRev/protocol.html)**
+- Publications: **-**
+- Results explorer: **-**
