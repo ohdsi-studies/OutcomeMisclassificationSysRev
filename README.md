@@ -10,7 +10,7 @@ Systematic review of outcome misclassification correction in pharmacoepidemiolog
 - Study lead forums tag: **[jweave17](https://forums.ohdsi.org/u/jweave17)**
 - Study start date: **1 November 2021**
 - Study end date: **-**
-- Protocol: **[Protocol](https://ohdsi-studies.github.io/OutcomeMisclassificationSysRev/Protocol.html)**
+- Protocol: **[Protocol](https://ohdsi-studies.github.io/OutcomeMisclassificationSysRev/protocol.html)**
 - Publications: **-**
 - Results explorer: **-**
 
