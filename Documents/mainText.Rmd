@@ -70,7 +70,6 @@ What is the performance of quantitative bias analysis (QBA) for outcome misclass
 * Bibliographic databases
   + MEDLINE via PubMed
   + EMBASE
-  + Web of Science/Web of Social Science
 * Reference lists of review articles
 * Articles that cite seminal QBA literature[@Greenland1996-hy;@Lash2003-pe;@Greenland2003-zd;@Fox2005-vb;@Lash2014-jd]
 
