@@ -504,3 +504,174 @@
               bias analysis; quantitative bias analysis",
   language = "en"
 }
+
+@ARTICLE{Fox2005-vb,
+  title    = "A method to automate probabilistic sensitivity analyses of
+              misclassified binary variables",
+  author   = "Fox, Matthew P and Lash, Timothy L and Greenland, Sander",
+  abstract = "BACKGROUND: Misclassification bias is present in most studies,
+              yet uncertainty about its magnitude or direction is rarely
+              quantified. METHODS: The authors present a method for
+              probabilistic sensitivity analysis to quantify likely effects of
+              misclassification of a dichotomous outcome, exposure or
+              covariate. This method involves reconstructing the data that
+              would have been observed had the misclassified variable been
+              correctly classified, given the sensitivity and specificity of
+              classification. The accompanying SAS macro implements the method
+              and allows users to specify ranges of sensitivity and specificity
+              of misclassification parameters to yield simulation intervals
+              that incorporate both systematic and random error. RESULTS: The
+              authors illustrate the method and the accompanying SAS macro code
+              by applying it to a study of the relation between occupational
+              resin exposure and lung-cancer deaths. The authors compare the
+              results using this method with the conventional result, which
+              accounts for random error only, and with the original sensitivity
+              analysis results. CONCLUSION: By accounting for plausible degrees
+              of misclassification, investigators can present study results in
+              a way that incorporates uncertainty about the bias due to
+              misclassification, and so avoid misleadingly precise-looking
+              results.",
+  journal  = "Int. J. Epidemiol.",
+  volume   =  34,
+  number   =  6,
+  pages    = "1370--1376",
+  month    =  dec,
+  year     =  2005,
+  language = "en"
+}
+
+@ARTICLE{Lash2003-pe,
+  title    = "Semi-automated sensitivity analysis to assess systematic errors
+              in observational data",
+  author   = "Lash, Timothy L and Fink, Aliza K",
+  abstract = "BACKGROUND: Published epidemiologic research usually provides a
+              quantitative assessment of random error for effect estimates, but
+              no quantitative assessment of systematic error. Sensitivity
+              analysis can provide such an assessment. METHODS: We describe a
+              method to reconstruct epidemiologic data, accounting for biases,
+              and to display the results of repeated reconstructions as an
+              assessment of error. We illustrate with a study of the effect of
+              less-than-definitive therapy on breast cancer mortality. RESULTS:
+              We developed SAS code to reconstruct the data that would have
+              been observed had a set of systematic errors been absent, and to
+              convey the results. After 4,000 reconstructions of the example
+              data, we obtained a median estimate of relative hazard equal to
+              1.5 with a 95\% simulation interval of 0.8-2.8. The relative
+              hazard obtained by conventional analysis equaled 2.0, with a 95\%
+              confidence interval of 1.2-3.4. CONCLUSIONS: Our method of
+              sensitivity analysis can be used to quantify the systematic error
+              for an estimate of effect and to describe that error in figures,
+              tables, or text. In the example, the sources of error biased the
+              conventional relative hazard away from the null, and that error
+              was not accurately communicated by the conventional confidence
+              interval.",
+  journal  = "Epidemiology",
+  volume   =  14,
+  number   =  4,
+  pages    = "451--458",
+  month    =  jul,
+  year     =  2003,
+  language = "en"
+}
+
+@ARTICLE{Greenland1996-hy,
+  title    = "Basic methods for sensitivity analysis of biases",
+  author   = "Greenland, S",
+  abstract = "BACKGROUND: Most discussions of statistical methods focus on
+              accounting for measured confounders and random errors in the
+              data-generating process. In observational epidemiology, however,
+              controllable confounding and random error are sometimes only a
+              fraction of the total error, and are rarely if ever the only
+              important source of uncertainty. Potential biases due to
+              unmeasured confounders, classification errors, and selection bias
+              need to be addressed in any thorough discussion of study results.
+              METHODS: This paper reviews basic methods for examining the
+              sensitivity of study results to biases, with a focus on methods
+              that can be implemented without computer programming. CONCLUSION:
+              Sensitivity analysis is helpful in obtaining a realistic picture
+              of the potential impact of biases.",
+  journal  = "Int. J. Epidemiol.",
+  volume   =  25,
+  number   =  6,
+  pages    = "1107--1116",
+  month    =  dec,
+  year     =  1996,
+  language = "en"
+}
+
+@ARTICLE{Greenland2003-zd,
+  title    = "Quantifying biases in causal models: classical confounding vs
+              collider-stratification bias",
+  author   = "Greenland, Sander",
+  abstract = "It has long been known that stratifying on variables affected by
+              the study exposure can create selection bias. More recently it
+              has been shown that stratifying on a variable that precedes
+              exposure and disease can induce confounding, even if there is no
+              confounding in the unstratified (crude) estimate. This paper
+              examines the relative magnitudes of these biases under some
+              simple causal models in which the stratification variable is
+              graphically depicted as a collider (a variable directly affected
+              by two or more other variables in the graph). The results suggest
+              that bias from stratifying on variables affected by exposure and
+              disease may often be comparable in size with bias from classical
+              confounding (bias from failing to stratify on a common cause of
+              exposure and disease), whereas other biases from collider
+              stratification may tend to be much smaller.",
+  journal  = "Epidemiology",
+  volume   =  14,
+  number   =  3,
+  pages    = "300--306",
+  month    =  may,
+  year     =  2003,
+  language = "en"
+}
+
+@ARTICLE{Lash2014-jd,
+  title    = "Good practices for quantitative bias analysis",
+  author   = "Lash, Timothy L and Fox, Matthew P and MacLehose, Richard F and
+              Maldonado, George and McCandless, Lawrence C and Greenland,
+              Sander",
+  abstract = "Quantitative bias analysis serves several objectives in
+              epidemiological research. First, it provides a quantitative
+              estimate of the direction, magnitude and uncertainty arising from
+              systematic errors. Second, the acts of identifying sources of
+              systematic error, writing down models to quantify them, assigning
+              values to the bias parameters and interpreting the results combat
+              the human tendency towards overconfidence in research results,
+              syntheses and critiques and the inferences that rest upon them.
+              Finally, by suggesting aspects that dominate uncertainty in a
+              particular research result or topic area, bias analysis can guide
+              efficient allocation of sparse research resources. The
+              fundamental methods of bias analyses have been known for decades,
+              and there have been calls for more widespread use for nearly as
+              long. There was a time when some believed that bias analyses were
+              rarely undertaken because the methods were not widely known and
+              because automated computing tools were not readily available to
+              implement the methods. These shortcomings have been largely
+              resolved. We must, therefore, contemplate other barriers to
+              implementation. One possibility is that practitioners avoid the
+              analyses because they lack confidence in the practice of bias
+              analysis. The purpose of this paper is therefore to describe what
+              we view as good practices for applying quantitative bias analysis
+              to epidemiological data, directed towards those familiar with the
+              methods. We focus on answering questions often posed to those of
+              us who advocate incorporation of bias analysis methods into
+              teaching and research. These include the following. When is bias
+              analysis practical and productive? How does one select the biases
+              that ought to be addressed? How does one select a method to model
+              biases? How does one assign values to the parameters of a bias
+              model? How does one present and interpret a bias analysis?. We
+              hope that our guide to good practices for conducting and
+              presenting bias analyses will encourage more widespread use of
+              bias analysis to estimate the potential magnitude and direction
+              of biases, as well as the uncertainty in estimates potentially
+              influenced by the biases.",
+  journal  = "Int. J. Epidemiol.",
+  volume   =  43,
+  number   =  6,
+  pages    = "1969--1985",
+  month    =  dec,
+  year     =  2014,
+  keywords = "Epidemiological biases; analysis; best practice",
+  language = "en"
+}

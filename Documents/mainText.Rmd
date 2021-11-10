@@ -51,11 +51,11 @@ if (knitr::is_latex_output()) {
 The existing empirical literature generally reports results from one exposure comparison, for one outcome, in one database, using one QBA type. Evaluating QBA performance is subject to variability from different research questions, study designs, analytic implementations, in contexts where there is no *a priori* expectation about the true result. This review will determine whether novel QBA methodological research should be designed using strictly consistent study design, and analytic implementation, and applied to research questions where the estimates that are expected to be null (i.e., negative control exposure-outcome pairs).
 
 # Review question
-What is the performance of quantitative bias analysis (QBA) for outcome misclassification correction in observational, causal effect estimation studies pharmacoepidemiology?
+What is the performance of quantitative bias analysis (QBA) for outcome misclassification correction in causal effect estimation studies in pharmacoepidemiology using routinely collected, observational data?
 
 ## Objectives
 
-* Characterize use of QBA for outcome misclassification correction in pharmacoepidemiological literature. We will report the number of studies that include QBA methods by year. We will report the proportion of QBA studies by study characteristics [Section XX.X][Study characteristics] and by QBA characteristics [Section XX.X][QBA characteristics]. 
+* Characterize use of QBA for outcome misclassification correction in pharmacoepidemiological literature. We will report the number of studies that include QBA methods by year. We will report the proportion of QBA studies by study characteristics ([Section 7.11.3][Study characteristics]) and by QBA characteristics ([Section 7.11.4][QBA characteristics]). 
 * Assess the impact QBA for outcome misclassification correction on effect measure estimates
 * Explore study characteristics and QBA characteristics that may explain impact
 
@@ -72,7 +72,7 @@ What is the performance of quantitative bias analysis (QBA) for outcome misclass
   + EMBASE
   + Web of Science/Web of Social Science
 * Reference lists of review articles
-* Articles that cite seminal QBA literature
+* Articles that cite seminal QBA literature[@Greenland1996-hy;@Lash2003-pe;@Greenland2003-zd;@Fox2005-vb;@Lash2014-jd]
 
 ## Search dates
 2021-11-01 to <mark>YYYY-MM-DD</mark>
@@ -88,10 +88,13 @@ Observational, causal effect estimation studies pharmacoepidemiology. Studies in
 
 ## Study inclusion criteria
 
-We will query the literature for clinical and methodological studies that used validation study results as QBA input to generate effect estimates corrected for outcome misclassification. We will not restrict studies to any specific therapeutic area, study design, data type, or QBA approach. We will only require that the clinical studies were intended to estimate the causal effect of a therapeutic exposure on an outcome using observational data and include effect estimates with and without QBA-based correction. Methodological studies must be intended to assess a method for outcome misclassification correction in studies with this same intent. Methodological studies could be based on empirical or simulated data.
+We will query the literature for clinical and methodological studies that used validation study results as QBA input to generate effect estimates corrected for outcome misclassification. We will not restrict studies to any specific therapeutic area, study design, data type, or QBA approach. We will only require that the clinical studies were intended to estimate the causal effect of a therapeutic exposure on an outcome using observational data and include effect estimates with and without QBA-based correction. Methodological studies must be intended to assess a method for outcome misclassification correction in studies with this same intent. Methodological studies could be based on empirical or simulated data. At least two effect estimates must be reported: one *before* QBA for outcome misclassification correction has been applied, the other *after* QBA for outcome misclassification correction has been applied.
+
+### Publication period
+2006-01-01 to <mark>YYYY-MM-DD</mark>
 
 ### Participants/population
-No restrictions on patient population or therapeutic area.
+Any patient population or therapeutic area. 
 
 ### Intervention
 
@@ -103,13 +106,22 @@ No restrictions on patient population or therapeutic area.
 * Multiple bias modeling (correlated biases)
 
 ### Comparator
-No QBA for outcome misclassification correction
+The "comparator" in this methodology review is an estimate of the causal effect of the treatment on the outcome where QBA for outcome misclassification has not been applied. It is not a "comparator" in the sense of an alternative intervention.
 
 ### Types of studies to be included
 * Cohort
 * Case-control
 * Self-controlled
 * Methodological (empirical or simulated)
+
+## Study exclusion criteria
+
+* Non-human studies
+* Non-English language
+* Outside of publication period: 2006-01-01 to <mark>YYYY-MM-DD</mark>
+* Characterization studies
+* Prediction studies
+* Meta-analyses
 
 ## URL to search strategy
 
@@ -127,13 +139,14 @@ No QBA for outcome misclassification correction
 * **Precision difference**, defined as the difference in the precision of the QBA-corrected point estimate and the uncorrected estimate)
   + 1/(SE(log(nonQbaEstimate))^2^ – 1/(SE(log(qbaEstimate))^2^
 * **Coverage**, defined as whether the confidence intervals (CI) of the QBA-corrected and uncorrected estimates include the null
+* **Interpretation change**, defined qualitatively as whether the authors interpretation of the result differs as a result of applying QBA.
 
 ## Study selection
-Two reviewers (JW and <mark>??</mark>) will independently apply eligibility criteria to the de-duplicated set of studies identified by the search strategies and will be blinded to decisions of the other reviewer. Included study discrepancies will be adjudicated by a third reviewer (DPA).
+Two reviewers (JW and LE) will independently apply eligibility criteria to the de-duplicated set of studies identified by the search strategies and will be blinded to decisions of the other reviewer. Included study discrepancies will be adjudicated by a third reviewer (DPA).
 
 ## Data extraction
 
-Two reviewers (JW and <mark>??</mark>) with independently extract data from included studies. Data extraction discrepancies will be adjudicated by a third reviewer (DPA). Data will be collected in a <mark>data collection tool</mark>. Missing data will be allowed. Study authors will be contacted if data are missing for main or additional outcomes.
+Two reviewers (JW and LE) with independently extract data from the main manuscript and any supplemental material of the included studies. Data extraction discrepancies will be adjudicated by a third reviewer (DPA). Data will be collected using a web-based survey tool. Missing data will be allowed. Study authors will be contacted if data are missing for main or additional outcomes.
 
 The following data will be extracted from each included study. A single study can contain ≥1 effect estimates so there can be ≥1 row of data collected per study. The unit of analysis of this review is each effect estimate, grouped at a second level by study.
 
@@ -218,13 +231,13 @@ The following data will be extracted if applicable and available. Target, compar
   + Unknowns
 
 ### Quality assessment
-The performance QBA for outcome misclassification correction will be quantified and evaluated using the main and additional outcomes. QBA reporting quality will be assessed by reporting the proportions of missing data from study and QBA characteristics.
+The performance QBA for outcome misclassification correction will be quantified and evaluated using the main and additional outcomes. QBA reporting quality will be assessed by reporting the proportions of missing data from study and QBA characteristics. Missing data implies lower quality reporting.
 
 ### Data synthesis
 The bias difference and </mark>standard error of the correlated bias difference</mark> will be computed for each QBA-corrected and uncorrected estimate. Heterogeneity across studies will be assessed with the I^2^ statistic. A pooled estimate of bias difference will be calculated if I^2^<50%.
 
 ### Subgroup analyses
-No specific subgroups will be explicitly assessed. Rather, outcomes will be tested for association with study characteristics and QBA characteristics (Re: objective “Explore study characteristics and QBA methodological variables that may explain impact”). Main and additional outcomes will be characterized with mean and standard deviation by study characteristics and QBA characteristics. For each main and additional outcome, we <mark>may</mark>will fit a multivariable predictive model assessing the predictive impact study characteristics and QBA characteristics on the outcomes. Not that the resulting model parameters reflect associations of predictive importance and are not intended to be interpreted as causal.
+No specific patient or population subgroups will be explicitly assessed. Rather, outcomes will be evaluated for associations with study characteristics ([Section 7.11.3][Study characteristics]) and QBA characteristics ([Section 7.11.4][QBA characteristics]) (Re: objective “Explore study characteristics and QBA methodological variables that may explain impact”). Main and additional outcomes will be characterized with mean and standard deviation by study characteristics and QBA characteristics. For each main and additional outcome, we will fit a multivariable predictive model assessing the predictive impact study characteristics and QBA characteristics on the outcomes. Note that the resulting model parameters reflect associations of predictive importance and are not intended to be interpreted as causal.
 
 # Existing reviews on similar topics
 A review in 2016[@Hunnicutt2016-gn] assessed the use of probabilistic bias analysis for correcting selection, confounding, and misclassification biases in pharmacoepidemiology and covered literature from 2010-01-01 to 2015-10-31. Another review in 2021[@Petersen2021-yk] assessed the use of 4 methods of quantitative bias analysis for correcting selection, confounding, and misclassification biases in epidemiology and covered literature from 2006-01-01 to 2019-12-31. The current systematic review will assess the use of 4 types of quantitative bias analysis for outcome misclassification correction in pharmacoepidemiology and will cover literature from 2006-01-01 to <mark>YYYY-MM-DD</mark>.
