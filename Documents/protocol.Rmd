@@ -116,7 +116,7 @@ parties <- readr::read_delim(col_names = TRUE, delim = ";", trim_ws = TRUE, file
   Patrick B. Ryan ^2,3,4^;ryan@ohdsi.org
   Victoria Strauss ^1,2^;victoria.strauss@csm.ox.ac.uk
   Marc A. Suchard ^3,5^;msuchard@ucla.edu
-  Leena ElHussein ^1^;leena.elhussein@csm.ox.ac.uk
+  Leena Elhussein ^1^;leena.elhussein@csm.ox.ac.uk
   Daniel Prieto-Alhambra ^1,3,6^;daniel.prietoalhambra@ndorms.ox.ac.uk
 ")
 
