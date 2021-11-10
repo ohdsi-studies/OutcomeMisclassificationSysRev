@@ -1,0 +1,29 @@
+{
+    "id": "6C35185D",
+    "path": "S:/Git/GitHub/ohdsi-studies/OutcomeMisclassificationSysRev/Documents/mainText.Rmd",
+    "project_path": "Documents/mainText.Rmd",
+    "type": "r_markdown",
+    "hash": "3439968994",
+    "contents": "",
+    "dirty": false,
+    "created": 1636557827469.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "docOutlineSize": "196",
+        "cursorPosition": "144,24",
+        "scrollLine": "141",
+        "ignored_words": "misclassification,PubMed,Cochrane,comparator\n"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1636575900,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1636575900292,
+    "read_only": false,
+    "read_only_alternatives": []
+}
