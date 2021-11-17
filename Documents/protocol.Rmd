@@ -43,7 +43,7 @@ longtable: yes
 mainfont: Arial
 bibliography: Protocol.bib
 params:
-  date: '2021-10-26'
+  date: '2021-11-01'
   version: 1.0
 subtitle: 'Version: `r params$version`'
 link-citations: true

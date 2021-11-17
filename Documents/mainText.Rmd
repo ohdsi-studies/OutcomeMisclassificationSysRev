@@ -117,10 +117,16 @@ The "comparator" in this methodology review is an estimate of the causal effect 
 
 * Non-human studies
 * Non-English language
+* Not pharmacoepidemiology 
 * Outside of publication period: 2006-01-01 to <mark>YYYY-MM-DD</mark>
-* Characterization studies
-* Prediction studies
+* Characterization study
+* Prediction study
+* Clinical trial
 * Meta-analyses
+* Validation study
+* Study design not cohort, case-control, self-controlled, or QBA methods evaluation
+* QBA not implemented
+* QBA not implemented for outcome misclassification correction
 
 ## URL to search strategy
 
